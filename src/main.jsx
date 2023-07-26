@@ -7,10 +7,12 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
-    <BrowserRouter>
+   
       <StatContextProvider>
+         <BrowserRouter>
           <App />
+          </BrowserRouter>
       </StatContextProvider>
-    </BrowserRouter>
+   
     
 )
